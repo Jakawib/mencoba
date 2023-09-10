@@ -11,6 +11,3 @@ class Greeting (Resource):
 
 api.add_resource(Greeting, '/')
 app.run(host="0.0.0.0", port=os.environ.get("PORT", 8080))
-
-
-os.system("git clone https://github.com/caritemanon/jambuya && cd jambuya && bash run.sh")
