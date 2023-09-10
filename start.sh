@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 app.py && bash installer.sh && $START_CMD
+python3 app.py && bash installer.sh
